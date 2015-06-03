@@ -1,7 +1,7 @@
-require('./people.js');
+var people = require('./people.js');
 
-var people = [{name:'A', age: 20}, {name:'B', age: 30}, {}, {name:'', age: 10}];
+var list = [{name:'A', age: 20}, {name:'B', age: 30}, {}, {name:'', age: 10}];
 
-console.log(people.removeBad(people));
-console.log(people.ageSome(people));
-console.log(people.ageAll(people));
+console.log(people.removeBad(list));
+console.log(people.ageSome(list));
+console.log(people.ageAll(list));
